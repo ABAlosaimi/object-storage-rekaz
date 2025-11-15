@@ -102,9 +102,10 @@ Configure which storage backend to use and receive a JWT token.
 ```json
 {
   "storageTpye": "local-file",
-  "storagePath": "/path/to/storage" // Optional, required for local-file storage
+  "storagePath": "/path/to/storage" 
 }
 ```
+storagePath is only required for `local-file` storage type.
 
 **Storage Types:**
 - `local-file` - Local file system storage
